@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login&signup</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="email.js"></script>
+        <script src="https://kit.fontawesome.com/bca19b6e15.js" crossorigin="anonymous"></script>
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("TjnUJMvpMy6MFS7OE");
+   })();
+</script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="form-box">
+                <div class="homepage-link">
+                    <!-- akshata se homepage link le and put it here--><a href="fitness.html"><i class="fas fa-home"></i></a> 
+                </div>
+                <h1 id="title">Sign Up</h1>
+                <form>
+                    <div class="input-group">
+                        <div class="input-field" id="namefield">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="text" placeholder="Name" id="name">
+                        </div>
+
+                        <div class="input-field">
+                            <i class="fas fa-envelope"></i> 
+                            <input type="email" placeholder="Email" id="email">
+                        </div>
+        
+                        <div class="input-field">
+                            <i class="fas fa-lock"></i> 
+                            <input type="password" placeholder="Password">
+                        </div>
+                        
+                        <div class="input-field">
+                            <input type="checkbox" id="terms" name="terms">
+                            <label for="term" >I accept the terms and conditions</label>
+                        </div>
+
+                        <p>Lost password <a href="#">Click Here</a></p>
+                    </div>
+                    <div class="btn-field">
+                        <button type="button" id="signupbtn">Sign up</button>
+                        <button type="button" id="loginbtn" class="disabled">Login</button> 
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script>
+            let signupbtn= document.getElementById("signupbtn");
+            let loginbtn= document.getElementById("loginbtn");
+            let namefield= document.getElementById("namefield");
+            let title= document.getElementById("title");
+        
+            loginbtn.onclick = function()
+            {
+                namefield.style.maxHeight="0";
+                title.innerHTML="Login";
+                signupbtn.classList.remove("disabled");
+                loginbtn.classList.add("disabled");
+            }
+            signupbtn.onclick = function()
+            {
+                namefield.style.maxHeight="60px";
+                title.innerHTML="Sign Up";
+                signupbtn.classList.add("disabled");
+                loginbtn.classList.remove("disabled");
+                sendmail();
+            }
+        </script>
+        
+    </body>
+</html>
