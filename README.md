@@ -1,1 +1,4 @@
+---
+permalink: /fitness.html
+---
 # akki
