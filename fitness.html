@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/bca19b6e15.js" crossorigin="anonymous"></script>
+</head>
+<link rel="stylesheet" href="fitness.css">
+<body>
+    <!-- <nav>
+
+    <div class="topnav">
+        <a href="login.html">Program</a>
+        <a href="">About</a>
+        <a href="">Login</a>
+        <a href="">Sign Up</a>
+    </div>
+</nav> -->
+<ul>
+    <li><a href="login-2.html">Login</a></li>
+    <li><a href="program.html">Program</a></li>
+    <li><a href="bmi.html">BMI</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+  <div class="video-cont">
+
+    <video autoplay muted loop id="myvideo">
+        <source src="/Users/akshataingalahalli/Desktop/web/fitness.mp4" type="video/mp4">
+    </video>
+
+     <div class="video-cont1" style="position: absolute; height: 100%; width: 60%; top: 0; background-image: linear-gradient(90deg,black,rgba(0, 0, 0, 0.7), rgba(0,0,0,0)) "></div>
+     </div>
+
+<!-- <div class="video-cont" style="position: relative;">
+    
+    <video autoplay muted loop id="myvideo" height="90%" width="100%" style="display: block;">
+        <source src="/Users/akshataingalahalli/Desktop/web/fitness.mp4" type="video/mp4">
+    </video>
+
+    <div class="video-cont1" style="position: absolute; height: 100%; width: 100%; top: 0; background-image: linear-gradient(90deg,black,rgba(0, 0, 0, 0.815), rgba(0,0,0,0)) "></div>
+
+</div> -->
+
+    <div class="textbox">
+        <h1>UNOFIT</h1>
+<div class="text"> Welcomes and unites people of all ages, abilities, and goals around a methodology that is accessible and effective for all. We train, persevere, and progress together.
+</div>    
+</div>
+<button id="scroll-down-btn">
+    <div class="text1">Explore more</div>
+</button>
+
+	<script>
+		var scrollDownBtn = document.getElementById('scroll-down-btn');
+
+		scrollDownBtn.addEventListener('click', function() {
+			window.scrollBy({
+				top: 720,
+				behavior:"smooth"
+			});
+		});
+	</script>
+<div class="choose">Choose your workout type</div>
+<video autoplay muted loop id="yoga">
+    <source src="/Users/akshataingalahalli/Desktop/web/yoga.mp4" type="video/mp4">
+</video>
+<div class="b1">
+<div class="yogah">Yoga</div>
+<div class="yoga-content">Yoga for Beginners to Advanced. First free session available. Click to know more.</div>
+<button class="my-button" onclick="location.href='program.html'">Know More</button>
+</div>
+
+<video autoplay muted loop id="strength-training">
+    <source src="/Users/akshataingalahalli/Desktop/web/strength training.mp4" type="video/mp4">
+</video>
+<div class="b2">
+    <div class="strh">Strength Training</div>
+    <div class="str-content">Strength training sessions available from Mon-Sat. Click to know the timings.</div>
+    <button class="str-button" onclick="location.href='program.html'">Know More</button>
+</div>
+<video autoplay muted loop id="cardio">
+    <source src="/Users/akshataingalahalli/Desktop/web/cardio.mp4" type="video/mp4">
+</video>
+ <div class="b3">
+    <div class="cardioh">Cardio</div>
+    <div class="cardio">First free session available for Cardio. Click to know more. </div>
+    <button class="cardio-button" onclick="location.href='program.html'">Know More</button>
+ </div> 
+ <div style="display: flex;align-items: center ; width: 100%; justify-content: center;min-height: 500px; background-image: url('/Users/akshataingalahalli/Desktop/web/footer.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+    
+
+    <div style="min-height: 500px; min-width: 100%; background-color: rgba(0,0,0,0.5); display: flex;  ">
+        <h1 style="color: #fff; font-family: 'Times New Roman', Times, serif;  margin-left: 6%;margin-top: 40px;">Contact</h1>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 7%; margin-left: -96px;">Instagram</h3><i class="fa-brands fa-instagram" style="color: rgb(181, 123, 166); margin-top: 122px;margin-left: 10px;"></i>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 10%; margin-left: -105px;">Facebook</h3><i class="fa-brands fa-facebook" style="color: rgb(181, 123, 166) ;margin-top: 165px;margin-left: 12px;"></i>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 13%; margin-left: -100px;">Twitter</h3><i class="fa-brands fa-twitter" style="color: rgb(181, 123, 166);margin-top: 210px;margin-left: 14px;"></i>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 16%; margin-left: -100px;">Phone number</h3><i class="fa-solid fa-phone" style="color: rgb(181, 123, 166);margin-top: 250px;margin-left: 15px;"></i>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 19%; margin-left: -130px;">Email</h3><i class="fa-solid fa-envelope" style="color: rgb(181, 123, 166);margin-top: 293px;margin-left: 17px;"></i>
+        <h1 style="color: #fff; font-family: 'Times New Roman', Times, serif;  margin-left: 12%;margin-top: 40px;">Quick Links</h1>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 7%; margin-left: -106px;">Login</h3><i class="fa-solid fa-right-to-bracket" style="color: rgb(181, 123, 166); margin-top: 122px;margin-left: 11px;"></i>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 10%; margin-left: -76px;">Cardio</h3><i class="fa-solid fa-heart-circle-bolt" style="color: rgb(181, 123, 166) ;margin-top: 165px;margin-left: 12px;"></i>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 13%; margin-left: -100px;">Strength Training</h3><i class="fa-solid fa-dumbbell" style="color: rgb(181, 123, 166);margin-top: 210px;margin-left: 14px;"></i>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 16%; margin-left: -148px;">Yoga</h3><i class="fa-regular fa-heart" style="color: rgb(181, 123, 166);margin-top: 250px;margin-left: 15px;"></i>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 7%; margin-left: 150px;">chat with us</h3><i class="fa-solid fa-message" style="color: rgb(181, 123, 166); margin-top: 122px;margin-left: 20px;"></i>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 10%; margin-left: -130px;">Explore more</h3>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 13%; margin-left: -120px;">Our Community</h3>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 16%; margin-left: -130px;">What is UNOFIT</h3>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 7%; margin-left: 75px;">Join our community</h3>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 10%; margin-left: -120px;">Trainers</h3>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 13%; margin-left: -70px;">About us</h3>
+        <h1 style="color: #fff; font-family: 'Times New Roman', Times, serif;  margin-left: 12%;margin-top: 40px;">Address</h1>
+        <h3 style="color: lavender; font-family: 'Times New Roman', Times, serif; padding-top: 7%; margin-left: -120px;">Unofit, B/vijaypath<br><br> - Delhi-110065</h3>
+    </div>
+
+</div>
+
+
+</body>
+</html>
