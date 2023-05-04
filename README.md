@@ -7,3 +7,5 @@ The website also includes a sign-up form that allows users to register for a fit
 The website's design is modern, user-friendly, and visually appealing, with an emphasis on simplicity and ease of use. The color scheme and typography are carefully chosen to enhance the user experience and create a sense of professionalism and credibility.
 
 Overall, the fitness website created using HTML, CSS, JavaScript, and Email JS is an excellent resource for anyone looking to improve their fitness and lead a healthier lifestyle. With its comprehensive programs, BMI calculator, and email confirmation system, this website is sure to be a valuable tool for fitness enthusiasts of all levels.
+
+But the main drawback is that it is not responsive. So if you're using the code then make the changes in CSS(width, height, size) according to your screen size. Will try to make it responsive next time.
