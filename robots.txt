@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /private/
 Allow: /
 
-Sitemap: https://yourusername.github.io/sitemap.xml
+Sitemap: https://akshata785.github.io/sitemap.xml
