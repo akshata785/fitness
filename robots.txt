@@ -1,7 +1,0 @@
-# Allow all web crawlers to access everything
-User-agent: *
-Disallow: /private/
-Allow: /
-
-# Provide the location of your sitemap
-Sitemap: https://akshata785.github.io/fitness/sitemap.xml
